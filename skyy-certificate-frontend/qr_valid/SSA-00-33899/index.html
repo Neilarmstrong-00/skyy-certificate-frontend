@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <base href="https://skyy-certificate-frontend.vercel.app/" />
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Skyyskill Certificate Builder">
+  <link rel="apple-touch-icon" href="/logo192.png">
+  <link rel="manifest" href="/manifest.json">
+  <title>Skyy Certificate</title>
+  
+  <!-- We intentionally disable the original JavaScript bundle because the original is a React Single Page Application (SPA).
+       If we let the JavaScript run, React will notice that the local URL doesn't match the original,
+       and it will clear the screen and show a "Page Not Found". 
+       Disabling it freezes the UI state so you can edit the HTML locally without issues. -->
+  <!-- <script defer="defer" src="/static/js/main.fd5300b2.js"></script> -->
+  
+  <link href="/static/css/main.7741eb46.css" rel="stylesheet">
+  <style>
+    /* Ensure no residual spacing issues when script is removed */
+    html, body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div class="Verify_container__O0kSE">
+      <div class="Verify_mainContent__KsTfB">
+        <div class="Verify_headerSection__M3iBG">
+          <h1 class="Verify_title__zn4aj">Certificate Verification Portal</h1>
+          <p class="Verify_subtitle__1fD-c">Verify the authenticity of certificates by entering the certificate number</p>
+        </div>
+        <div class="Verify_inputSection__4j4oC">
+          <div class="Verify_inputGroup__JlKjr">
+            <label for="certId" class="Verify_inputLabel__Dyzsb">Certificate Number</label>
+            <input id="certId" class="Verify_inputField__Vpb+p" placeholder="e.g. SSA-OT00-2406262" type="text" value="SSA-00-33899">
+          </div>
+        </div>
+        <div class="Verify_contentSection__3dsj2">
+          <div class="Verify_detailsCard__4c1wc">
+            <div class="Verify_cardHeader__B5Lb1">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="Verify_cardIcon__Oaw4e" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+              </svg>
+              <h2 class="Verify_cardTitle__KRd23">Valid Certificate Details</h2>
+            </div>
+            <div class="Verify_detailsContainer__eJPaq">
+              <dl class="Verify_detailsList__TtLDl">
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Student Name</dt>
+                  <dd class="Verify_detailValue__m0zWL">Miss.. Nilove Mandal</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Certificate Template</dt>
+                  <dd class="Verify_detailValue__m0zWL">free</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Certificate Number</dt>
+                  <dd class="Verify_detailValue__m0zWL">SSA-00-33899</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Recipient Email</dt>
+                  <dd class="Verify_detailValue__m0zWL">nilovemandal@gmail.com</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Duration</dt>
+                  <dd class="Verify_detailValue__m0zWL">1 Month</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Mode</dt>
+                  <dd class="Verify_detailValue__m0zWL">Offline</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Course Name</dt>
+                  <dd class="Verify_detailValue__m0zWL">EMBEDDED ERA – From Silicon to Smart Systems</dd>
+                </div>
+                <div class="Verify_detailItem__tExFe">
+                  <dt class="Verify_detailLabel__Z2Khu">Issue Date</dt>
+                  <dd class="Verify_detailValue__m0zWL">02/05/2026</dd>
+                </div>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
